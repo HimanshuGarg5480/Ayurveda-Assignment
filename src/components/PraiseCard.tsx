@@ -31,7 +31,7 @@ const PraiseCard = () => {
       <div className="flex flex-wrap gap-3">
         {arr.map((i:any) => {
           return (
-            <SubItems item={i}/>
+            <SubItems item={i} key={i}/>
           );
         })}
       </div>
