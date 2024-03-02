@@ -29,7 +29,7 @@ const PraiseCard = () => {
       <p className="text-black font-semibold text-2xl">Praise</p>
       <p className="text-gray-500 mt-2">What traits best describe Trausti?</p>
       <div className="flex flex-wrap gap-3">
-        {arr.map((i) => {
+        {arr.map((i:any) => {
           return (
             <SubItems item={i}/>
           );
